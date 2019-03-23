@@ -1,1 +1,1 @@
-# https://individual.github.io/index.html
+# http://individual.github.io/index.html
