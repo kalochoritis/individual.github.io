@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: darkslateblue;
+    
+}
+
+header * {
+    display: inline;
+    height: 50px;
+   
+}
+
+header ul {
+    padding: 0;
+    
+}
+
+header li {
+    margin-left: 20px;
+    
+}
+
+section {
+    height: 100vh;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 5em;
+    color: darkslategrey
+}
+
+section h2 {
+    font-size: 2.5em;
+     color: ghostwhite;
+    
+}
+
+section h3 {
+    font-size: 1.5em;
+     color: navajowhite
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://newevolutiondesigns.com/images/freebies/cool-wallpaper-preview-1.jpg');
+}
+
+#about {
+    background-image:  url('https://newevolutiondesigns.com/images/freebies/cool-wallpaper-9.jpg');
+    
+}
+#about button{
+    background-color: darkslateblue;
+  border: none;
+    border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#contact {
+    background-image: url('https://newevolutiondesigns.com/images/freebies/cool-wallpaper-11.jpg');
+}
